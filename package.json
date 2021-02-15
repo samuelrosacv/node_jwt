@@ -1,0 +1,21 @@
+{
+  "name": "node_jwt",
+  "version": "1.0.0",
+  "description": "Testanto autenticação JWT em node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -- -r esm -r dotenv/config app.js"
+  },
+  "author": "Samuel Rosa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.16",
+    "mongose": "0.0.2-security",
+    "nodemon": "^2.0.7",
+    "restify": "^8.5.1"
+  }
+}
